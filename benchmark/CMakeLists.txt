@@ -1,0 +1,5 @@
+include_directories(benchmark/build/src)
+link_libraries(-lbenchmark -lpthread)
+add_compile_options(-isystem)
+add_executable(benchmarkRandomInt benchmarkRandomInt.cpp)
+add_executable(benchmarkSorted benchmarkSorted.cpp)

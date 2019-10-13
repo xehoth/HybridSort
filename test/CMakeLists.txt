@@ -1,0 +1,3 @@
+add_executable(TestRandom TestRandom.cpp)
+add_executable(TestSorted TestSorted.cpp)
+add_executable(TestSortedReversed TestSortedReversed.cpp)
