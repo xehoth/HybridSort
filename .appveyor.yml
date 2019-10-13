@@ -1,0 +1,11 @@
+image:
+  - Ubuntu1804
+
+matrix:
+  fast_finish: true
+
+build_script:
+  - cmake --version
+  - mkdir build && cd build
+  - cmake ../ -DCMAKE_BUILD_TYPE=RELEASE -DBUILD_BENCHMARK=ON
+  - make
