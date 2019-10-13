@@ -9,10 +9,12 @@ build_script:
   - mkdir google-benchmark && cd google-benchmark
   - git clone https://github.com/google/benchmark.git
   - git clone https://github.com/google/googletest.git benchmark/googletest
+  - cd benchmark
   - mkdir build && cd build
   - cmake ../ -DCMAKE_BUILD_TYPE=RELEASE
   - make
   - make install
+  - cd ..
   - cd ..
   - cd ..
   - mkdir build && cd build
