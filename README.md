@@ -1,6 +1,6 @@
 # HybridSort
 
-[![Build status](https://ci.appveyor.com/api/projects/status/tur6g0hwvfv9qjj7?svg=true)](https://ci.appveyor.com/project/xehoth/learnopengl)
+[![Build status](https://ci.appveyor.com/api/projects/status/tur6g0hwvfv9qjj7?svg=true)](https://ci.appveyor.com/project/xehoth/learnopengl) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/79115a9a253a42c68da54e87ef2eda2a)](https://www.codacy.com/manual/xehoth/HybridSort?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=xehoth/HybridSort&amp;utm_campaign=Badge_Grade)
 
 HybridSort is a combination of some sorting method, which performs better in sorting basic types than `std::sort`.  
 We use dual-pivot quick sort, which is ported from java7 `Arrays.sort`, as the main sorting method.  
