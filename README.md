@@ -43,6 +43,8 @@ Compared with `std::sort`.
 
 ### Random Int
 
+![Time Chart (Random Int)](charts/chart-time-random-int.svg)
+
 ``` plain
 --------------------------------------------------------------
 Benchmark                    Time             CPU   Iterations
@@ -100,6 +102,8 @@ stdSort/10000000     669224700 ns    671875000 ns            1
 ```
 
 ### Sorted Int
+
+![Time Chart (Sorted Int)](charts/chart-time-sorted-int.svg)
 
 ``` plain
 --------------------------------------------------------------
