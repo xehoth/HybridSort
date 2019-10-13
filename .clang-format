@@ -1,0 +1,21 @@
+BasedOnStyle: Google
+IndentWidth: 4
+
+# cpp
+Language: Cpp
+ColumnLimit: 100
+AccessModifierOffset: -1
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AlignEscapedNewlines: Left
+AlignOperands: true
+AlignTrailingComments: true
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowShortCaseLabelsOnASingleLine: false
+
+UseTab: Never
+NamespaceIndentation: All
+DerivePointerAlignment: false
+PointerAlignment: Right
+SortIncludes: false
